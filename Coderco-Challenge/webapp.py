@@ -29,7 +29,7 @@ def welcome():
             </style>
         </head>
         <body>
-            <h1>Welcome to the Flask + Redis App!</h1>
+            <h1>Welcome to my CoderCo Container Challenge!</h1>
         </body>
     </html>
     """
