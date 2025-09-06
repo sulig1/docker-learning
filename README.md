@@ -4,24 +4,24 @@
 
 This repository contains a multi-container Docker application featuring a Python Flask web app and a Redis database. It demonstrates how to run and connect multiple services using Docker Compose.
 
-## 📌 Overview
+##  Overview
 
 - Flask – Python web framework for serving pages.  
 - Redis – Key-value store to track visit counts.  
 - Docker Compose – Orchestrates multi-container setup.  
 
-## 🚀 Features
+##  Features
 
 - Shared visit count stored in Redis, accessible across all app instances.  
 - Simple, lightweight setup for demonstrating Docker networking and service linking.  
 - Easily scalable to run multiple Flask containers.  
 
-## 🌐 Endpoints
+##  Endpoints
 
 - `/` → Welcome page with a button linking to `/count`.  
 - `/count` → Increments and displays the global visit count.  
 
-## 🛠 How to Run
+##  How to Run
 
 1. Build and start services  
 
